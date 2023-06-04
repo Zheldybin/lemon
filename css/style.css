@@ -1,0 +1,204 @@
+:root {
+  --black:#000000;
+  --red:#921026;
+  --grey: #c2c2c2;
+  --grey-dark: #555555;
+  --bg-sect:#f8f8f8;
+  --white:#ffffff;
+  --green: #055555;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", "Playfair Display", sans-serif;
+  background-color: #eaeaea;
+  color: var(--black);
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 112rem;
+  margin: 0 auto;
+}
+
+.container {
+  box-shadow: 0 0 6.5px rgba(11, 12, 12, 0.15);
+  background-color: var(--bg-sect);
+  margin-top: 8.5rem;
+}
+
+/*------------------------ header ------------------------  */
+.logo {
+  padding: 25rem 0 12rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header__section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4.5rem 0;
+  position: relative;
+}
+.header__logo img {
+  width: 9rem;
+  height: 3.5rem;
+}
+.header__nav ul {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  display: flex;
+  gap: 3rem;
+}
+.header__search input {
+  width: 15rem;
+  height: 2.5rem;
+  border: 1px solid var(--grey);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/*------------------------ slider ------------------------  */
+.slider {
+  padding: 5rem 9rem;
+  background-image: url(../img/cake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.slider__logo img {
+  width: 25rem;
+  height: 10rem;
+}
+.slider__title {
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  color: var(--red);
+  font-weight: 400;
+  font-family: "Playfair Display";
+  margin-top: 4rem;
+}
+.slider__text {
+  width: 45%;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.slider__dot {
+  display: flex;
+  -moz-column-gap: 0.5rem;
+  column-gap: 0.5rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 2.5rem;
+}
+.slider__item {
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.slider__item_active {
+  background-color: #555555;
+}
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  color: var(--black);
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  font-size: 1.2rem;
+  border: 1px solid var(--grey);
+}
+
+/* ------------------------ recipe ------------------------ */
+.recipe {
+  display: flex;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+  padding: 4rem 5rem 5rem 5rem;
+}
+.recipe__title {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+.recipe__user {
+  font-size: 1.2rem;
+  color: var(--grey-dark);
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.recipe__user img {
+  width: 1rem;
+}
+
+/* ------------------------ recipe-full ------------------------ */
+.recipe-full {
+  display: flex;
+  height: 47vh;
+}
+.recipe-full__img {
+  position: relative;
+}
+.recipe-full__icon {
+  position: absolute;
+  right: 3rem;
+  top: 0;
+}
+.recipe-full__card {
+  padding: 3rem;
+  overflow-y: scroll;
+}
+.recipe-full__card::-webkit-scrollbar {
+  width: 4px;
+}
+.recipe-full__card::-webkit-scrollbar-thumb {
+  background-color: var(--grey-dark);
+  border-radius: 20px;
+}
+.recipe-full__title {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: var(--green);
+  font-weight: 900;
+  font-family: "Playfair Display";
+}
+.recipe-full__user {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recipe-full__user img {
+  width: 10%;
+}
+.recipe-full__decr {
+  margin-top: 2.5rem;
+}
+.recipe-full__structure span {
+  display: inline-block;
+}
+.recipe-full__decr-title {
+  margin-top: 2.5rem;
+  font-weight: 700;
+}
+.recipe-full__decription {
+  margin-top: 2.5rem;
+}
+.recipe-full__decription span {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
