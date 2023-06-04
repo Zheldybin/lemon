@@ -161,6 +161,9 @@ a {
   &__img {
     position: relative;
   }
+  &__bg img {
+    height: 47vh;
+  }
   &__icon {
     position: absolute;
     right: 3rem;
@@ -213,4 +216,12 @@ a {
   &__decription span {
     display: inline-block;
   }
+}
+
+
+.fgfgdsg {
+  margin-top: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: tomato;
 }

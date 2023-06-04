@@ -154,6 +154,9 @@ a {
 .recipe-full__img {
   position: relative;
 }
+.recipe-full__bg img {
+  height: 47vh;
+}
 .recipe-full__icon {
   position: absolute;
   right: 3rem;
@@ -201,4 +204,11 @@ a {
 }
 .recipe-full__decription span {
   display: inline-block;
+}
+
+.fgfgdsg {
+  margin-top: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: tomato;
 }/*# sourceMappingURL=style.css.map */
