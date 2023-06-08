@@ -157,12 +157,9 @@ a {
 
 .recipe-full {
   display: flex;
-  height: 47vh;
+  height: 440px;
   &__img {
     position: relative;
-  }
-  &__bg img {
-    height: 47vh;
   }
   &__icon {
     position: absolute;
@@ -216,6 +213,71 @@ a {
   &__decription span {
     display: inline-block;
   }
+}
+
+
+.page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8rem;
+  &__404 {
+    text-align: center;
+    padding: 2rem 4rem 3rem 3rem;
+  }
+  .page__404__img img {
+      width: 70%;
+    }
+  &__feedback {
+    padding: 2rem 4rem 3rem 3rem;
+    }
+  &__feedback__wrapper {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    column-gap: 2rem;
+  }
+  &__feedback__title {
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    margin-top: 4rem;
+  }
+  &__feedback__subtitle {
+    margin-top: 1rem;
+  }
+  &__feedback__social {
+    margin-top: 1rem;
+  }
+  &__feedback__social img {
+    width: 1.7rem;
+    margin-right: 1rem;
+  }
+
+  &__feedback__descr__title {
+    margin-top: 3rem;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+
+  &__feedback__descr__text {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+
+  &__feedback__descr_sign {
+    margin-top: 1rem;
+    text-align: end;
+  }
+}
+
+.title__cards {
+  text-align: left;
+}
+
+.title__cards {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  font-style: italic;
 }
 
 
